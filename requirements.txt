@@ -1,3 +1,21 @@
-# 機械手臂控制程式所需的 Python 套件
+# 機械手臂智能控制系統完整依賴套件
+# 安裝方式: pip install -r requirements_full.txt
+
+# GUI 框架
 pyqt5>=5.15.0
+
+# Serial 通訊
 pyserial>=3.5
+
+# 數值計算與運動學
+numpy>=1.21.0
+scipy>=1.8.0
+
+# 3D 視覺化與繪圖
+matplotlib>=3.5.0
+
+# 視覺監控
+opencv-python>=4.5.0
+
+# 額外建議套件
+# opencv-contrib-python>=4.5.0  # OpenCV 擴充功能（可選）
